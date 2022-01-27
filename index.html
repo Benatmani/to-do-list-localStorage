@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>ToDo App</title>
+</head>
+<body>
+  <main>
+    <div class="container">
+      <h1 class="title">ToDo App</h1>
+      <div class="add-task">
+        <label for="input-new-task">New task</label>
+        <div class="input">
+          <input type="text" name="input-new-task" placeholder="add a new task">
+          <button>
+            <span class="material-icons-outlined">add</span>
+          </button>
+        </div>
+      </div>
+      <div class="search-for-task">
+        <label for="input-search">Search</label>
+        <div class="input">
+          <input type="text" name="input-search" placeholder="search for a task">
+          <button>
+            <span class="material-icons-outlined">search</span>
+          </button>
+        </div>
+      </div>
+      <div class="tasks">
+        <h2>Tasks</h2>
+        <div class="list-of-tasks">
+        </div>
+      </div>
+      <div class="clear-all">
+        <button>clear all</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </main>
+</body>
+</html>
